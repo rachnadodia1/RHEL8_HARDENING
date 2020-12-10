@@ -121,6 +121,7 @@
     - level2
     - section1
     - notimplemented
+  ignore_errors: yes
 
 - name: "1.1.13 Ensure separate partition exists for /home (Scored)\n
   1.1.14 Ensure nodev option set on /home partition (Scored)"
@@ -139,6 +140,7 @@
     - scored
     - level1
     - section1
+  ignore_errors: yes
 
 - name: "1.1.15 Ensure nodev option set on /dev/shm partition (Scored)\n
   1.1.16 Ensure nosuid option set on /dev/shm partition (Scored)\n
@@ -163,7 +165,8 @@
     - scored
     - level1
     - section1
-
+  ignore_errors: yes
+  
 - name: "1.1.18 Ensure nodev option set on removable media partitions (Not Scored)\n
   1.1.19 Ensure nosuid option set on removable media partitions (Not Scored)\n
   1.1.20 Ensure noexec option set on removable media partitions (Not Scored)"
@@ -179,7 +182,8 @@
     - notscored
     - level1
     - section1
-
+  ignore_errors: yes
+  
 - name: 1.1.21 Ensure sticky bit is set on all world-writable directories (Scored) - find directories
   shell: |
     set -o pipefail
