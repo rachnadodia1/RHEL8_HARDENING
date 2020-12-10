@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: cis_rhel8
+  author: Jérémy Bertozzi
+  description: Apply CIS guideline for rhel8
+  license: BSD
+  min_ansible_version: 2.5
+  platforms:
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags:
+    - cis
+    - rhel8
+    - system
+    - hardening
+dependencies: []
