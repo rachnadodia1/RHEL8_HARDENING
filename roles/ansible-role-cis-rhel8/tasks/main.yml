@@ -5,6 +5,8 @@
   tags:
     - always
     - pre
+    
+- include_tasks: section_1.yml
 
 - name: Initial Setup
   include_tasks: section_1.yml
