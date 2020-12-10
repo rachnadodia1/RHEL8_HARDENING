@@ -1,4 +1,4 @@
 ---
-- hosts: rhel8_servers
+- hosts: all
   roles:
     - role: ansible-role-cis-rhel8
