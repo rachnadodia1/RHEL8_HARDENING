@@ -1,0 +1,6 @@
+---
+- name: Ping server
+  hosts: all
+  tasks:
+   - name: Check whether  server is reachable
+     action: ping
